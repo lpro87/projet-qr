@@ -17,4 +17,18 @@
 
   // Initialize Firebase
   const app = initializeApp(firebaseConfig);
+
+firebase.database().ref("triggered").on("value", (snapshot) => {
+    const triggered = snapshot.val();
+
+    if (triggered) {
+        console.log("Redirection en cours...");
+        // Mettez l'URL cible ici :
+        window.location.href = "https://docs.google.com/forms/d/e/1FAIpQLSfTYxM8_a2u5VrEZojRuOKI2mJ-PjcAD30tUBWiEOaG7GX6Vw/viewform";
+    }
+});
+
+
+
+
 </script>
