@@ -12,7 +12,7 @@
     projectId: "clisson-2025",
     storageBucket: "clisson-2025.firebasestorage.app",
     messagingSenderId: "980033637644",
-    appId: "1:980033637644:web:67ed1786e3be93187f0d29"
+    appId: "1:980033637644:web:70eee4c08ffb65e77f0d29"
   };
 
   // Initialize Firebase
